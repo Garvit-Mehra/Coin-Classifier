@@ -13,6 +13,7 @@ It uses a pre-trained **EfficientNetB0** model fine-tuned on the dataset, achiev
 ---
 
 ## 📂 Dataset Structure
+Data is available from [kaggle](https://www.kaggle.com/competitions/dl4cv-coin-classification/data)
 ```
 ├── train/                  # Folder with training coin images
 ├── test/                   # Folder with test coin images
@@ -98,13 +99,3 @@ Install via:
 ```bash
 pip install torch torchvision timm pandas matplotlib seaborn pillow
 ```
-🚀 Getting Started
-
-# Train the model
-train_model()
-
-# Evaluate performance
-validate()
-
-# Run inference
-predict_and_generate_submission()
